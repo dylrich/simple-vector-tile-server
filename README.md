@@ -1,6 +1,6 @@
 ## Simple Vector Tile Server
 
-This repository has a very simple server.js file that dynamically creates vector tile endpoints from a directory of .mbtiles files. Unpacked protocol buffers in folder format are not supported. Meant for learning, not production!
+This repository has a very simple server.js file that dynamically creates vector tile endpoints from a directory of .mbtiles files. Unpacked protocol buffers in folder format are not supported. Meant for learning, not production! Updated version based on https://github.com/chelm/mbtiles-server and https://github.com/klokantech/tileserver-gl
 
 ### Usage
 
