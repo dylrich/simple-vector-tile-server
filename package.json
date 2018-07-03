@@ -1,0 +1,27 @@
+{
+  "name": "simple-vector-tile-server",
+  "version": "0.1.0",
+  "description": "A simple vector tile server written in Node/Express to be used as an example.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js 3000 ./data"
+  },
+  "keywords": [
+    "vector",
+    "tile",
+    "node",
+    "express",
+    "mapbox",
+    "server"
+  ],
+  "author": "Dylan Richardson",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.10.0",
+    "@mapbox/vector-tile": "^1.3.1",
+    "express": "^4.16.3",
+    "pbf": "^3.1.0",
+    "zlib": "^1.0.5"
+  }
+}
