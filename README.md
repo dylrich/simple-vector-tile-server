@@ -22,4 +22,4 @@ If you want to specify your own port and directory
 node server.js [PORT] [/directory/to/folder/with/mbtiles/files]
 ```
 
-Check that the server is running by navigating to http://localhost:3000/states/3/1/2.
+Check that the server is running by navigating to http://localhost:3000/states/3/1/2. You should see raw geojson data that can be consumed by a browser mapping library.
